@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.pai h1+p{
+    color: aqua;
+}
+.pai p+h1{
+    color: brown;
+}
+.pai2{
+    background-color: bisque;
+    padding: 5px;
+}
+.pai2 .n2~.n1{
+    color: rgb(0, 43, 233);
+}
+[atributo="valor"]{ /*pega um*/
+    color: blue;
+}
+[atributo~="valor1"]{ /*se tiver varios valores, pega um*/
+    color: red;
+}
+[atri^="cham"]{ /*pega as letras inicias*/
+    color: blueviolet;
+}
+[a$="da"]{ /*pega as letras finais*/
+    color: rgb(208, 255, 0);
+}
