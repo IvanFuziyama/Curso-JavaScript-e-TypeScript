@@ -1,0 +1,9 @@
+@charset "UTF-8";
+ul li::after{ /*funciona com só um : também*/
+    content: " - ";
+    background-color: bisque;
+}
+p::first-letter{
+    font-size: 40px;
+        
+}
