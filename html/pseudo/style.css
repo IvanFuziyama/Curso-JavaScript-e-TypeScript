@@ -1,0 +1,8 @@
+@charset "UTF-8";
+ul.lista1 li:nth-child(2){ /*funciona tambem como: even - par | odd - impar*/
+    background-color: aquamarine;
+    color: red;
+}
+ul.lista2 li:nth-child(3n){
+    background-color: green;
+}
